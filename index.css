@@ -1,0 +1,137 @@
+*{
+    /* height: 100%;
+    width: 100%; */
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #0B0C10;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav a{
+    color: #D79922;
+}
+.container{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+.introDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+.intro{
+    margin: auto;
+    padding: 5%;
+    flex-direction: column;
+}
+.name{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.introContent{
+    font-size: 2rem;
+    text-align: end;
+    color: #bbbbbb;
+}
+.contentPage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to right, #4ECDC4, #556270); */
+    /* background-color: rgb(241, 234, 253); */
+}
+.aboutDiv{
+    /* padding-top: 10%; */
+    height: 100%;
+    width: 40%;
+    border-right: 2px solid black;
+}
+.about,.skillHeading{
+    color: #007FFF;
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.aboutContent,.skills{
+    margin-top: 2%;
+    font-size: 1.5rem;
+    color: #5A4FCF;
+}
+.skills{
+    padding-left: 10%;
+}
+.skillsDiv{
+    height: 100%;
+    width: 40%;
+}
+.projectsDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to right, #000, #434343);
+}
+.project{
+    width: 25%;
+    height: 50%;
+    border: 2px solid black;
+}
+.project a{
+    height: 100%;
+    width: 100%;
+}
+.project a div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projHeading{
+    height: 20%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #66FCF1;
+}
+.aboutProj{
+    height: 45%;
+    padding: 5%;
+    color: #C5C6C7;
+}
+.technologies{
+    height: 20%;
+    color: #45A293;
+}
+.contactPage{
+    height: 30%;
+}
+.links{
+    height: 100%;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+.social-links i{
+    font-size: 3rem;
+    color: black;
+}
