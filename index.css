@@ -33,7 +33,7 @@
     border: 100% solid transparent;
 }
 .nav .links:hover:before{ 
-    border: 2px solid springgreen;
+    /* border: 2px solid springgreen; */
     animation: Banimation 1s linear forwards;
 }
 
@@ -94,7 +94,7 @@
     border: 100% solid transparent;
 }
 .nav .links:hover:after{ 
-    border: 2px solid springgreen;
+    /* border: 2px solid springgreen; */
     animation: Banimation2 1s linear forwards;
 }
 
@@ -387,4 +387,93 @@
 
 .contentPage .animated{
     opacity: 1;
+}
+
+@media (max-width: 600px){
+    .nav .links a{
+        font-size: 1rem;
+    }
+    .nav .links:hover:before{
+        animation: none;
+    }
+    .nav .links:hover:after{
+        animation: none;
+    }
+    .name{
+        font-size: 1.5rem;
+        animation: nameAnimation 2s ease-in-out;
+    }
+    @keyframes nameAnimation{
+        0%{ 
+         /* color: black; */
+         letter-spacing: 0;
+         margin-bottom: 0%;   
+        }
+        
+        50%{
+            letter-spacing: 15px;
+            margin-bottom: -2%;
+        }
+        
+        100%{
+            letter-spacing: 0px;
+            margin-bottom: 0;
+        }
+    }
+    .introContent{
+        font-size: 1.2rem;
+    }
+    .contentPage{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom : 10%;
+        /* background-color: blue; */
+    }
+    .aboutDiv,.skillsDiv{
+        width: 100%;
+        padding: 2%;
+        /* background-color: blueviolet; */
+        border: none;
+    }
+    .about,.skillHeading{
+        font-size: 1.5rem;
+    }
+    .aboutContent,.skill{
+        font-size: 1.2rem;
+    }
+    .aboutContent{
+        padding: 2%;
+    }
+    .skillsDiv{
+        margin-top: -12%;
+    }
+    .projectsDiv{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .project{
+        width: 80%;
+        height: 300px;
+        margin: 5% auto;
+    }
+    .pageHeading{
+        position: relative;
+    }
+    .lastProj{
+        height: 50px;
+    }
+    .projHeading{
+        display: flex;
+        font-size: 1.2rem;
+    }
+    .contactPage{
+        height: 20%;
+    }
+    .social-links i{
+        font-size: 1.5rem;
+        color:black;
+    }
+    
 }
