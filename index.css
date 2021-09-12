@@ -439,7 +439,7 @@
         }
     }
     .introContent{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .contentPage{
         display: flex;
@@ -448,23 +448,17 @@
         padding-bottom : 10%;
         /* background-color: blue; */
     }
-    .aboutDiv,.skillsDiv{
+    .skillsDiv{
         width: 100%;
         padding: 2%;
         /* background-color: blueviolet; */
         border: none;
     }
-    .about,.skillHeading{
+    .skillHeading{
         font-size: 1.5rem;
     }
-    .aboutContent,.skill{
-        font-size: 1.2rem;
-    }
-    .aboutContent{
-        padding: 2%;
-    }
-    .skillsDiv{
-        margin-top: -12%;
+    .skill{
+        font-size: 1rem;
     }
     .projectsDiv{
         display: flex;
@@ -495,5 +489,6 @@
     }
     a{
         text-decoration: none;
+        font-size: 0.8rem;
     }
 }
