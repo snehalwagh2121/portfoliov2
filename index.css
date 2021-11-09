@@ -1,6 +1,4 @@
 *{
-    /* height: 100%;
-    width: 100%; */
     margin: 0;
     padding: 0;
 }
@@ -23,7 +21,6 @@
     height: 100%;
     width: 10%;
     border: none;
-    /* margin: 2%; */
 }
 .nav .links:before{
     position: absolute;
@@ -33,7 +30,6 @@
     border: 100% solid transparent;
 }
 .nav .links:hover:before{ 
-    /* border: 2px solid springgreen; */
     animation: Banimation 1s linear forwards;
 }
 
@@ -94,7 +90,6 @@
     border: 100% solid transparent;
 }
 .nav .links:hover:after{ 
-    /* border: 2px solid springgreen; */
     animation: Banimation2 1s linear forwards;
 }
 
@@ -162,12 +157,9 @@
     background: linear-gradient(to right, #000428, #004e92);
 }
 .intro{
-    /* width: 90%; */
     text-align: center;
     margin: auto;
-    /* padding: 5%; */
     flex-direction: column;
-    /* border: 2px solid black; */
 }
 .name{
     margin-bottom: 0;
@@ -178,7 +170,6 @@
 }
 @keyframes nameAnimation{
     0%{ 
-     /* color: black; */
      letter-spacing: 0;
      margin-bottom: 0%;   
     }
@@ -196,7 +187,6 @@
 .introContent{
     margin-top: 1%;
     font-size: 1.2rem;
-    /* text-align: end; */
     color: #bbbbbb;
 }
 .contentPage{
@@ -206,31 +196,19 @@
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid rgba(117, 117, 117, 0.5);
-    /* animation: contentHeight 10s ease-out; */
 }
 .aboutDiv{
-    /* padding-top: 10%; */
     height: 100%;
     width: 40%;
     border-right: 2px solid rgba(117, 117, 117, 0.5);
-    /* margin-right: 100%; */
-    /* background-color: blanchedalmond; */
-    /* animation: contentHeight 10s ease-out;  */
-    /* transition: width 2s, height 4s; */
-    /* transform-origin: top; 
-    transition: transform 0.26s ease;
-    transform: scaleY(1);  */
-    
 }
 
-.about,.skillHeading{
-    /* color: #132743; */
+.about,.skillHeading, .experienceHeading{
     margin-top: 5%;
     width: 100%;
     text-align: center;
     font-size: 3rem;
     font-weight: bolder;
-    /* animation: glow 2s ease-in-out infinite alternate; */
 }
 @keyframes glow {
     from {
@@ -241,7 +219,6 @@
     }
   }
 .aboutContent,.skills{
-    /* margin-top: 5%; */
     font-size: 1.5rem;
     color: #14274e;
 }
@@ -254,23 +231,59 @@
 .skillsDiv{
     height: 100%;
     width: 100%;
-    /* justify-content: end; */
-    /* border-left: 2px solid rgba(117, 117, 117, 0.5) ; */
-
-    /* transition: width 2s, height 4s; */
 }
 .skill{
-    /* padding: 2%; */
+    margin: 3%;
+}
+.skill i{
+    font-size: 2rem;
+}
+.skill span{
+    margin-left: 5px;
+}
+.experienceContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.experienceContainer{
+    height: 100%;
+    width: 100%;
+}
+.experience{
+    height: 100%;
+    width: 100%;
+}
+.exp1{
+    width: 35%;
+    height: 45%;
     margin: 1% 2%;
+    box-shadow: 0px 0px 2px 3px rgb(36, 36, 36);
+}
+.post{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #004e92;
+    font-weight: bold;
+}
+.role{
+    margin-left: 5%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.companyName{
+    font-size: 0.8rem;
 }
 .projectsDiv{
     position: relative;
     height: 100%;
     width: 100%;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
     background: linear-gradient(to right, #000, #434343);
     
 }
@@ -278,6 +291,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
 }
 .projLoc {
     animation: projectAnimation 1s linear;
@@ -291,18 +306,16 @@
     }
 }
 .pageHeading{
-    /* position: absolute; */
-    /* top: 5%; */
-    /* margin: 1%; */
     padding: 2%;
     text-align: center;
     color: blueviolet;
     font-size: 2rem;
     font-weight: bolder;
 }
+
 .project{
-    width: 500px;
-    height: 350px;
+    width: 35%;
+    height: 30%;
     margin: 1% 2%;
     box-shadow: 0px 0px 2px 3px rgb(36, 36, 36);
 }
@@ -323,8 +336,8 @@
     color: #66FCF1;
 }
 .aboutProj{
-    height: 45%;
-    padding: 5%;
+    height: 40%;
+    padding: 2% 5%;
     color: #C5C6C7;
     margin: auto;
 }
@@ -335,10 +348,8 @@
 .contactPage{
     height: 30%;
     position: relative;
-    /* background: linear-gradient(to right, #000, #434343); */
 }
 .links{
-    /* background-color: brown; */
     height: 100%;
     display: flex;
     width: 40%;
@@ -348,8 +359,6 @@
 }
 .socialLinks div{
     position: absolute;
-    /* background-color: brown; */
-    /* margin-left: 0; */
     top: 30%;
 }
 .linkedInAnime{
@@ -423,7 +432,6 @@
     }
     @keyframes nameAnimation{
         0%{ 
-         /* color: black; */
          letter-spacing: 0;
          margin-bottom: 0%;   
         }
@@ -446,18 +454,25 @@
         flex-direction: column;
         height: auto;
         padding-bottom : 10%;
-        /* background-color: blue; */
     }
     .skillsDiv{
         width: 100%;
         padding: 2%;
-        /* background-color: blueviolet; */
         border: none;
     }
-    .skillHeading{
+    .skillHeading, .experienceHeading, .pageHeading{
         font-size: 1.5rem;
     }
     .skill{
+        font-size: 1rem;
+    }
+    .experience{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        font-size: 0.8rem;
+    }
+    .post{
         font-size: 1rem;
     }
     .projectsDiv{
@@ -465,9 +480,8 @@
         flex-direction: column;
         height: auto;
     }
-    .project{
+    .project, .exp1{
         width: 80%;
-        height: 300px;
         margin: 5% auto;
     }
     .pageHeading{
@@ -478,7 +492,7 @@
     }
     .projHeading{
         display: flex;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .contactPage{
         height: 20%;
@@ -486,6 +500,9 @@
     .social-links i{
         font-size: 1.5rem;
         color:black;
+    }
+    .project a div{
+        margin: 4% 3%;
     }
     a{
         text-decoration: none;
